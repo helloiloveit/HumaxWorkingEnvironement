@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/huyheo/Documents/T51/model/docs/release_notes'
+let g:netrw_dirhist_2='/home/huyheo/Documents/T51/platform/linux/.svn/pristine'
+let g:netrw_dirhist_3='/home/huyheo/Documents/hd-1000s/application/product/helpers/power/make'
+let g:netrw_dirhist_4='/home/huyheo/Documents/HD-1000S_FGDL_20150309_1/product_config/defconfig/productconfig'
+let g:netrw_dirhist_5='/home/huyheo/Documents/hd-1000s/product_config/platform/linux/hd-1000s/rev0.1/skel_epg'
+let g:netrw_dirhist_6='/home/huyheo/work/Project/hd-1000s/product_config/defconfigs/kconfigs'
+let g:netrw_dirhist_7='/home/huyheo/work/Project/HD-1000S_FGDL_20150309_1/make'
+let g:netrw_dirhist_8='/home/huyheo/.vim/neocomplete.vim-master/test'
+let g:netrw_dirhist_9='/home/huyheo/.vim/plugin/neocomplete'
