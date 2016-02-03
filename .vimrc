@@ -25,10 +25,10 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+let g:syntastic_always_populate_loc_list = 0
+let g:syntastic_auto_loc_list = 0 
+let g:syntastic_check_on_open = 0 
+let g:syntastic_check_on_wq = 0 
 
 
 """fuzzyfinder"""
@@ -54,3 +54,9 @@ if has('cscope')
 
   command -nargs=0 Cscope cs add $VIMSRC/src/cscope.out $VIMSRC/src
 endif
+
+
+
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
