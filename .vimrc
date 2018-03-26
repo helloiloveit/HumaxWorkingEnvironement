@@ -1,6 +1,7 @@
 nnoremap <F2> <F2> : vsplit <CR>
 nnoremap <F3> :TlistToggle <CR>
 nnoremap <F4> :NERDTree <CR>
+autocmd VimEnter * NERDTree
 map <Tab><Tab> <C-W>w
 map <silent> <F4> :NERDTreeToggle<CR>
 set tabstop=4       " The width of a TAB is set to 4.
@@ -37,26 +38,4 @@ set rtp+=~/.fzf
 """ctrlp"""
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
-""" csscope"""
-if has('cscope')
-  set cscopetag cscopeverbose
-
-  if has('quickfix')
-    set cscopequickfix=s-,c-,d-,i-,t-,e-
-  endif
-
-  cnoreabbrev csa cs add
-  cnoreabbrev csf cs find
-  cnoreabbrev csk cs kill
-  cnoreabbrev csr cs reset
-  cnoreabbrev css cs show
-  cnoreabbrev csh cs help
-
-  command -nargs=0 Cscope cs add $VIMSRC/src/cscope.out $VIMSRC/src
-endif
-
-
-
-set nocompatible              " be iMproved, required
-filetype off                  " required
-
+syntax enable
